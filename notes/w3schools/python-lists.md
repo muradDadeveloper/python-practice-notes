@@ -229,37 +229,3 @@ list2 = [1, 2, 3]
 list1.extend(list2)
 print(list1) 
 ```
-
-
-``` Python
-
-```
-
-``` Python
-
-```
-
-
-``` Python
-
-```
-
-
-``` Python
-
-```
-
-
-``` Python
-
-```
-
-
-``` Python
-
-```
-
-
-``` Python
-
-```
