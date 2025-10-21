@@ -41,27 +41,63 @@ print(thisset)
 
 ## Remove item
 
-
-
-
 ``` Python
+thisset = {"apple", "banana", "cherry"}
+thisset.remove("banana")
 
+print(thisset) 
 ```
 
-``` Python
+`clear()` method empties the set:
 
+``` Python
+thisset = {"apple", "banana", "cherry"}
+thisset.clear()
+
+print(thisset) 
 ```
 
-``` Python
+## Loop Items
 
+You can loop through the set items by using a for loop:
+
+
+``` Python
+thisset = {"apple", "banana", "cherry"}
+
+for x in thisset:
+  print(x) 
 ```
 
-``` Python
+## Join Sets
 
+There are several ways to join two or more sets in Python.
+
+- The `union()` and `update()` methods joins all items from both sets.
+- The `intersection()` method keeps ONLY the duplicates.
+- The `difference()` method keeps the items from the first set that are not in the other set(s).
+- The `symmetric_difference()` method keeps all items EXCEPT the duplicates.
+
+## Union
+
+The union() method returns a new set with all items from both sets.
+
+``` Python
+set1 = {"a", "b", "c"}
+set2 = {1, 2, 3}
+
+set3 = set1.union(set2)
+print(set3) 
 ```
 
-``` Python
+You can use the | operator instead of the union() method, and you will get the same result.
 
+``` Python
+set1 = {"a", "b", "c"}
+set2 = {1, 2, 3}
+
+set3 = set1 | set2
+print(set3) 
 ```
 
 ``` Python
